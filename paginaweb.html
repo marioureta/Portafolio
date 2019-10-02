@@ -11,12 +11,12 @@
 </head>
 
 <body>
-    <header>
+    <header class="header">
         <div>
-            <figure>
+            <figure class="logo">
                 <img src="images/logo.png" alt="Logo de hhtp://leonidas.com">
             </figure>
-            <nav>
+            <nav class="menu">
                 <ol>
                     <li>
                         <a href="./portafolio/index.html">Portafolio</a>
@@ -32,36 +32,39 @@
         </div>
     </header>
     
-    <section>
+    <section class="hero">
         <h1>Hola, soy <strong>mario ureta durand</strong> ingeniero informatico y <br/> me apasionan las nuevas tecnologias</h1>
     </section>
     <img src="" alt=""> imagen de portada
     
-    <section id="portafolio">
+    <section id="portafolio" class="portfolio">
         <h2>Portafolio (Proyectos destacados)</h2>
-        <article>
-            <h3>Platzi Video</h3>
-            <h6>React Native / React</h6>
-            <p><small><strong>Fecha:</strong> 07-08-2019</small></p>
-            <p><small><strong>Puedes verlo en:</strong> www.platzi.com/seguridad</small></p>
-            <p>Explicación de por que te parece importante</p>
+        <article class="project">
+            <h3 class="project-title">Platzi Video</h3>
+            <h6 class="project-course">React Native / React</h6>
+            <p class="project-date"><small><strong>Fecha:</strong> 07-08-2019</small></p>
+            <p class="project-url"><small><strong>Puedes verlo en:</strong> www.platzi.com/seguridad</small></p>
+            <p class="project-description">Explicación de por que te parece importante</p>
+            <figure class="project-imageContainer">
+                <img class="project-image" width="500" src="images/platzi-video-react-native.png">
+            </figure>
         </article>
     </section>
     
     <section id="eventos">
         <h2>Más sobre mi experiencia</h2>
-        <article>
-            <figure>
-                <img src="" alt=""/>
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image" src="images/platzi-conf.jpg" width="500"/>
             </figure>
-            <h3>PlatziConf México 2018</h3>
-            <p>Explicar más acerca cel evento que querramos</p>
-            <a href="https://www.youtube.com" target="_blank">Ver plática</a>
+            <h3 class="event-title">PlatziConf México 2018</h3>
+            <p class="event-description">Explicar más acerca cel evento que querramos</p>
+            <a class="event-url" href="https://www.youtube.com" target="_blank">Ver plática</a>
         </article>
     </section>
 
-    <section id="contacto">
-        <form action="/suscripcion/">
+    <section class="contact" id="contacto">
+        <form action="/suscripcion/" class="form-email">
             <!--label for="email">Déjame tu email</label-->
             <h3>¿Creamos algo juntos?</h3>
             <input type="text" placeholder="Déjame tu email" value="@gmail.com" id="email"/>
@@ -69,7 +72,7 @@
             <button>enviar</button>
         </form>
     </section>
-    <footer>footer</footer>
+    <footer class="footer">footer</footer>
 </body>
 </html>
 
