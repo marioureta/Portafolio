@@ -1,9 +1,6 @@
-header{
-    background: green;
-}
 
 body{
-    font-family: 'Source Sans Pro', sans-serif
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -13,14 +10,51 @@ h3,
 h4,
 h5,
 h6{
-    font-family: 'Fjalla One ', sans-serif;
+    font-family: 'Fjalla One',sans-serif ;
     font-weight: normal;
 }
 
 h1{
-    font-size: 30px;
+    font-size: 40px;
     line-height: 50px;
     letter-spacing: -0.2px;
-    /*text-transform: uppercase;
-    text-decoration: dashed;*/
+    text-transform: capitalize;
+    color: white;
+    /* text-decoration: dashed; */
+}
+
+h1 strong {
+    color: #026fff;    
+}
+
+.header{
+    background-color: #1b2127;
+    color: #ffffff;
+}
+
+.header a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.hero{
+    height: 300px;
+    background-image: url('../images/hero.jpg');
+    background-size: 500px 300px;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-color: #1b2127;
+}
+
+.project{
+    border: 2px solid gray;
+    /* border-top-left-radius: 10px; */
+}
+
+.project-details{
+    width: 500px;
+}
+
+.project-imageContainer{
+    width: 500px;
 }
