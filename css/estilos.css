@@ -3,7 +3,6 @@ body{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
-
 h1,
 h2,
 h3,
@@ -20,6 +19,7 @@ h1{
     letter-spacing: -0.2px;
     text-transform: capitalize;
     color: white;
+    margin: 10px 510px 10px 20px;
     /* text-decoration: dashed; */
 }
 
@@ -27,14 +27,46 @@ h1 strong {
     color: #026fff;    
 }
 
+ul,
+ol{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+figure{
+    margin: 0px;
+}
+
 .header{
     background-color: #1b2127;
     color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 90px;
+}
+
+.menu{
+    height: inherit;
+}
+
+.header ol{
+    display: flex;
+    height: inherit;
+}
+
+.header ol li{
+    height: inherit;
 }
 
 .header a{
     color: #ffffff;
     text-decoration: none;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
 }
 
 .hero{
@@ -48,13 +80,35 @@ h1 strong {
 
 .project{
     border: 2px solid gray;
+    margin: 10px;
+    margin-bottom: 15px;
+    padding: 20px;
+    display: flex;
     /* border-top-left-radius: 10px; */
 }
 
 .project-details{
+    /* display: flex; */
     width: 500px;
+    margin: 0px;
 }
 
 .project-imageContainer{
     width: 500px;
+    /* display: flex; */
 }
+
+/* 
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.box{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    flex-shrink: 0;
+    margin: 20px;
+} */
